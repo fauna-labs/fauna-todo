@@ -1,0 +1,57 @@
+.todoWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.individualTodoWrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+    margin-top: 15px;
+    border: 0.5px solid lightblue;
+    height: 30px;
+    width: 91.5%;
+  }
+  
+  .checkboxLabel {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .individualTodoWrapper.priority-1 {
+    border: 0.5px solid lightcoral;
+  }
+  
+  .individualTodoWrapper.priority-2 {
+    border: 0.5px solid lightblue;
+  }
+  
+  .individualTodoWrapper.priority-3 {
+    border: 0.5px solid lightgreen;
+  }
+  
+  .checkboxLabel input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  .checkboxTextChecked {
+    text-decoration: line-through;
+    color: grey;
+    opacity: 0.5;
+  }
+  
+
+  .deleteBtn {
+    position: absolute;
+    border: none;
+    background-color: white;
+    margin-left: 1560px;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+
+  .deleteBtn:focus, .deleteBtn:hover {
+    background-color: lightblue;
+  }
