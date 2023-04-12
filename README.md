@@ -1,3 +1,11 @@
 # Sample TODO App with Fauna FQLX and React
 
 Follow the documentation page for the writeup
+
+### Get started
+crete a new `.env` file based on the `.env.example`. Add your Fauna Url and key.
+
+```sh
+NEXT_PUBLIC_FAUNA_URL="<Fauna-URL>"
+NEXT_PUBLIC_FAUNA_KEY="<Fauna-Key>"
+```
