@@ -1,4 +1,4 @@
-# Sample TODO App with Fauna FQLX and React
+# Sample TODO App with Fauna FQL 10 and React
 
 ### [Live application](https://fauna-todo.vercel.app/)
 
